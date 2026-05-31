@@ -1,7 +1,6 @@
 services:
   - type: web
     name: music-store-backend
-    runtime: java
-    rootDir: Backend/backend
+    rootDir: backend
     buildCommand: ./mvnw clean package
     startCommand: java -jar target/*.jar
