@@ -20,7 +20,7 @@ function App() {
 
   // fetch songs from the backend when the component mounts
   useEffect(() => {
-    fetch("http://localhost:8080/songs")
+    fetch("https://musicstorebackend-production.up.railway.app/songs")
       .then((res) => res.json())
       .then((data) => setSongs(data));
   }, []);
@@ -31,7 +31,7 @@ function App() {
     try {
 
         const response = await axios.post(
-          "http://localhost:8080/payment/create-order"
+          "https://musicstorebackend-production.up.railway.app/payment/create-order"
         );
 
         console.log(response.data); 
