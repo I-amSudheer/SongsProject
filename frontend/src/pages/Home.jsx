@@ -27,7 +27,7 @@ function Home() {
     useEffect(() => {
 
 
-        axios.get("http://localhost:8080/songs", {
+        axios.get("https://songsproject.onrender.com/songs", {
             headers: {
                 Authorization: `Bearer ${token}`
             }
