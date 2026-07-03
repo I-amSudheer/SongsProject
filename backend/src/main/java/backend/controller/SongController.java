@@ -12,10 +12,10 @@ import java.util.List;
 @CrossOrigin(origins = "http://localhost:3000")
 public class SongController {
 
-    @Autowired
+    @Autowired 
     private SongService songService;
     
-    // fetching the song details
+    // fetching the song details 
     @GetMapping
     public List<Song> getAllSongs() {
         return songService.getAllSongs();
