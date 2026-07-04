@@ -55,7 +55,8 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(List.of(
-            "https://songs-project-kappa.vercel.app/"
+            "https://songs-project-kappa.vercel.app/",
+            "https://songsproject.onrender.com/login"
             // Later add your deployed frontend URL here
         ));
 
