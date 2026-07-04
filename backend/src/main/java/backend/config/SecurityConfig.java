@@ -55,8 +55,7 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(List.of(
-            "http://localhost:3000",
-            "http://192.168.1.8:3000"
+            "https://songs-project-kappa.vercel.app/"
             // Later add your deployed frontend URL here
         ));
 
