@@ -18,7 +18,7 @@ import org.springframework.http.ResponseEntity;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://songs-project-kappa.vercel.app")
 public class UserController {
     @Autowired
     private UserService userService;

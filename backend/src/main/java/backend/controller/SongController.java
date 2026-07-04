@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/songs")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://songs-project-kappa.vercel.app")
 public class SongController {
 
     @Autowired 
